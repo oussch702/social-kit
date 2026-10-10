@@ -1,0 +1,37 @@
+{
+  "brand": "./brand.json",
+  "carousel": {
+    "name": "ai-receptionist-cost",
+    "url": "aistrikeforce.com/ai-receptionist-cost",
+    "slides": [
+      { "type": "cover", "kicker": "AI receptionist pricing · 2026", "title": "The cheapest AI receptionist can cost you *the most*" },
+      { "type": "rows", "title": "Five plans, five *sticker prices*", "rows": [
+        ["Rosie", "$49", "250 minutes a month"],
+        ["Goodcall", "$79", "Unlimited minutes, up to 100 unique callers"],
+        ["My AI Front Desk", "$99", "200 voice minutes"],
+        ["Smith.ai", "$150", "75 calls, then $2.50 a call"],
+        ["Dentina (dental)", "$374", "Unlimited calls, one location"]
+      ], "note": "Monthly list prices from each vendor’s pricing page." },
+      { "type": "statement", "title": "Compare the price *at your call volume*", "body": "Most plans charge for every call or minute over the allowance, or push you up a tier. The entry price tells you very little." },
+      { "type": "math", "kicker": "300 calls a month on Smith.ai", "lines": [
+        ["Entry plan, 75 calls", "$150.00"],
+        ["225 extra calls × $2.50", "$562.50"]
+      ], "total": ["Your bill", "$712.50"] },
+      { "type": "math", "kicker": "The same 300 calls on Goodcall", "lines": [
+        ["Unlimited minutes", "$79.00"],
+        ["Extra callers, if 100 people or fewer", "$0.00"]
+      ], "total": ["Your bill", "$79.00"], "note": "Beyond 100 unique callers, Goodcall charges $0.50 per extra caller." },
+      { "type": "checklist", "title": "Before you pick one", "items": [
+        "Pull last month’s call log",
+        "Count total calls",
+        "Count unique callers",
+        "Price every plan at those two numbers"
+      ] },
+      { "type": "cta", "title": "The full price table, with what each plan *includes*" }
+    ]
+  },
+  "og": {
+    "kicker": "Pricing guide · 2026",
+    "title": "What an AI receptionist *really costs*"
+  }
+}

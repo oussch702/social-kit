@@ -1,0 +1,14 @@
+{
+  "name": "social-kit",
+  "owner": {
+    "name": "AI Strike Force",
+    "url": "https://aistrikeforce.com"
+  },
+  "plugins": [
+    {
+      "name": "social-kit",
+      "description": "On-brand LinkedIn carousels, Instagram highlight covers and stories, LinkedIn banners, share cards and quote cards from a brand file and plain text.",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "brand": "./brand.json",
+  "carousel": {
+    "name": "website-costs",
+    "url": "northwind.studio/stack",
+    "author": { "name": "Mara Lind", "role": "Founder, Northwind Studio" },
+    "slides": [
+      { "type": "cover", "kicker": "Studio notes · 2026", "title": "Our website costs *$31 a month.* Here is every line." },
+      { "type": "rows", "title": "The monthly *bill*", "rows": [
+        ["Hosting", "$20", "Static hosting, pro plan"],
+        ["Email", "$6", "One shared inbox"],
+        ["Forms", "$3.75", "$45 a year, paid yearly"],
+        ["Domain", "$1.25", "$15 a year at renewal"],
+        ["Analytics", "$0", "Self-hosted on the same server"]
+      ], "note": "List prices for our plan, October 2026." },
+      { "type": "statement", "title": "Cheap is not the point. *Known* is.", "body": "Every line has an owner and a renewal date, so nothing renews by surprise." },
+      { "type": "math", "kicker": "One year, all in", "lines": [
+        ["Hosting, 12 months", "$240.00"],
+        ["Email, 12 months", "$72.00"],
+        ["Forms, yearly plan", "$45.00"],
+        ["Domain renewal", "$15.00"]
+      ], "total": ["Per year", "$372.00"] },
+      { "type": "checklist", "title": "Before you renew *anything*", "items": [
+        "List every tool with a card on file",
+        "Note who uses it and how often",
+        "Cancel what nobody opened in 90 days",
+        "Put every renewal date in one calendar"
+      ] },
+      { "type": "cards", "title": "Two swaps that *paid off*", "cards": [
+        ["Forms", "$12 down to $3.75 a month", "A plain form endpoint instead of a form builder. Same submissions, no badge on our site."],
+        ["Analytics", "$9 down to $0 a month", "Self-hosted analytics on the server we already pay for. No cookie banner needed."]
+      ] },
+      { "type": "cta", "title": "Our full tool list, *with prices*" }
+    ]
+  },
+  "stories": [
+    { "type": "stat", "group": "Results", "kicker": "Site rebuild", "number": "0.9s", "line": "load time after the *rebuild*", "footnote": "Down from 3.2s on the old site" },
+    { "type": "quote", "group": "Kind words", "quote": "They found the problem in a day and fixed it in a week.", "name": "Jonas Berg", "role": "Owner, Berg Coffee" },
+    { "type": "list", "group": "Process", "title": "How we *work*", "items": [
+      "A one hour call to see what you need",
+      "A fixed price before we start",
+      "Weekly previews you can click"
+    ] },
+    { "type": "cta", "group": "Work with us", "title": "Want a site that *loads fast?*", "link": "northwind.studio", "hint": "Tap the link in our bio to book a call." }
+  ],
+  "highlights": [
+    "star",
+    "quote",
+    { "icon": "zap", "style": "accent" },
+    "chart",
+    { "icon": "mail", "style": "light" },
+    "calendar"
+  ],
+  "banner": {
+    "kicker": "Design and build studio",
+    "title": "Websites that load fast and *sell quietly*",
+    "chips": ["Brand identity", "Web design", "Webflow and Next.js"],
+    "url": "northwind.studio"
+  },
+  "og": {
+    "kicker": "Studio notes · 2026",
+    "title": "What a small studio website *really costs to run*"
+  },
+  "quote": {
+    "quote": "They found the problem in a day and *fixed it in a week.*",
+    "name": "Jonas Berg",
+    "role": "Owner, Berg Coffee"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Northwind Studio",
+  "url": "northwind.studio",
+  "logo": "./logo.svg",
+  "colors": {
+    "bg": "#f6f5f1",
+    "ink": "#15192b",
+    "muted": "#5b6070",
+    "accent": "#4c6fff",
+    "accentInk": "#2f4fd6"
+  },
+  "background": {
+    "style": "glow",
+    "colors": ["#bfcdff", "#ffd2b8", "#e0d6ff"]
+  },
+  "fonts": {
+    "display": { "file": "../../fonts/BricolageGrotesque.woff2", "family": "Bricolage Grotesque", "weight": "500 800" },
+    "body": { "file": "../../fonts/Figtree.woff2", "family": "Figtree", "weight": "400 700" },
+    "accent": { "file": "../../fonts/InstrumentSerif-Italic.woff2", "family": "Instrument Serif", "style": "italic", "weight": "400" }
+  }
+}

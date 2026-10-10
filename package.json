@@ -1,0 +1,29 @@
+{
+  "name": "social-kit",
+  "version": "0.1.0",
+  "description": "On-brand LinkedIn carousels, Instagram highlight covers and stories, LinkedIn banners, share cards and quote cards from a brand file and plain text, rendered with headless Chrome.",
+  "type": "module",
+  "bin": {
+    "social-kit": "bin/social-kit.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": ["bin", "src", "fonts", "examples", "skills", ".claude-plugin"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo": "node bin/social-kit.mjs render examples/northwind/spec.json --out out/northwind",
+    "docs": "node scripts/docs-images.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": ["linkedin", "carousel", "instagram", "stories", "highlight-covers", "open-graph", "social-media", "design", "chrome", "claude-code", "agent-skill"],
+  "homepage": "https://github.com/oussch702/social-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oussch702/social-kit.git"
+  },
+  "author": "AI Strike Force (https://aistrikeforce.com)",
+  "license": "MIT"
+}

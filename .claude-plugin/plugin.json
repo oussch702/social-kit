@@ -1,0 +1,13 @@
+{
+  "name": "social-kit",
+  "version": "0.1.0",
+  "description": "On-brand LinkedIn carousels, Instagram highlight covers and stories, LinkedIn banners, share cards and quote cards from a brand file and plain text, rendered with headless Chrome.",
+  "author": {
+    "name": "AI Strike Force",
+    "url": "https://aistrikeforce.com"
+  },
+  "homepage": "https://github.com/oussch702/social-kit",
+  "repository": "https://github.com/oussch702/social-kit",
+  "license": "MIT",
+  "keywords": ["linkedin", "carousel", "instagram", "stories", "highlight-covers", "open-graph", "social-media", "design"]
+}

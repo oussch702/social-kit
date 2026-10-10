@@ -1,0 +1,21 @@
+{
+  "name": "AI Strike Force",
+  "url": "aistrikeforce.com",
+  "logo": "./logo.svg",
+  "colors": {
+    "bg": "#fafaf6",
+    "ink": "#111412",
+    "muted": "#586159",
+    "accent": "#1fae5b",
+    "accentInk": "#127a3f"
+  },
+  "background": {
+    "style": "glow",
+    "colors": ["#ffd3b6", "#c8f5de", "#ffeea6"]
+  },
+  "fonts": {
+    "display": { "file": "../../fonts/BricolageGrotesque.woff2", "family": "Bricolage Grotesque", "weight": "500 800" },
+    "body": { "file": "../../fonts/Figtree.woff2", "family": "Figtree", "weight": "400 700" },
+    "accent": { "file": "../../fonts/InstrumentSerif-Italic.woff2", "family": "Instrument Serif", "style": "italic", "weight": "400" }
+  }
+}
